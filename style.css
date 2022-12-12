@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:rgb(0, 51, 98) ;
+}
+
+.f-body{
+	background-color: whitesmoke;
+	border-radius: 8px;
+	
+	height: 400px;
+	width: 300px;
+	left: 37%;
+	position: absolute;
+	top: 19%;
+}
+
+.heading{
+	text-align: center;
+	font-size: 30px;
+	background-color: rgb(1, 145, 210);
+	text-transform: uppercase;
+	color: white;
+	padding: 5px;
+}
+
+.inp{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+
+input{
+	padding: 10px;
+	width: 85%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+button{
+	padding: 5px;
+	width: 85%;
+	height: 40px;
+	background-color: rgb(0, 54, 82);
+	color: white;
+	border-radius: 8px;
+	text-transform: capitalize;
+	cursor: pointer;
+	position: relative;
+	
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	border: none;
+	position: relative;
+	top: 5%;
+	
+	
+}
+a{
+	text-decoration: none;
+	position: relative;
+	top: 6%;
+	left: 32%;
+}
+
+
+.check{
+	position: relative;
+	left: -40%;
+	
+}
+
+.rem{
+	position: relative;
+	left: -19%;
+	top: -15px;
+}
+
+span i{
+	position: absolute;
+	left: 80%;
+	top: -10%;
+}
+
+i{
+	font-size: 70px;
+	text-align: center;
+	
+	display: inline-block;
+	width: 100%;
+	padding-top: 15px;
+	opacity: 0.2;
+}
